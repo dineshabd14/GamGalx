@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+    </head>
+    <style>
+
+        body{
+    
+            background-image:url("sand.JPG");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+            margin-right: 20px;
+            padding: 20px 20px;
+        }
+    </style>
+    <body>
+      <center><fieldset>
+        <legend><b><h2 style="color: darkmagenta;">SignUp</h2></b></legend>
+        <p>Please fill in this form to create an account.</p>
+        <form action="Loginpage.html" method="POST"><br><br>
+            <div>
+                <label>FirstName</label>
+                <input type="text" placeholder="Enter your FirstName"name="f"></div><br><br>
+                <div>
+                    <label>LastName</label>
+                    <input type="text"placeholder="Enter your LastName" name="l"></div><br><br>
+                    <div>
+                      <label>UserName</label>
+                      <input type="text"placeholder="Enter UserName" name="u"></div><br><br>
+                      <div>
+                        <label for="email">Email</label>
+              <input type="text" placeholder="Enter Email" name="email" required><br><br>
+                      </div><br>
+                     <div> <label for="psw">Password</label>
+              <input type="password" placeholder="Enter Password" name="psw" required></div><br><br>
+          
+              <div><label for="psw-repeat">Repeat Password</label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required></div><br><br>
+          
+            <div>
+
+                <label>DOB</label>
+                <input type="date" name="d"></div><br><br>
+            <div>
+                <label>ph</label>
+                <input type="number"placeholder="Enter PhoneNumber" name="p"></div><br><br>
+            <div>
+                <label>gender</label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>TransGender</option>
+            </select></div><br><br>
+            <input type="submit" name="s" value="SignUp"><br><br>
+            <a href="Loginpage.html">SignUp</a>
+          
+        </form> 
+        
+    </fieldset></center>
+        
+    </body>
+</html>
